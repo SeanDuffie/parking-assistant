@@ -46,7 +46,6 @@ while True:
         pass
 
     print(distance)
-    time.sleep(0.1)
 
     if distance > ZONE4:
         GreenLED.value = True
@@ -82,3 +81,5 @@ while True:
         GarageLights.value = False
     else:
         GarageLights.value = True
+
+    time.sleep(0.1)
